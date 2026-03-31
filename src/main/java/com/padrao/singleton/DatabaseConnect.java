@@ -21,8 +21,4 @@ public class DatabaseConnect {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
-    public static void setInstance(DatabaseConnect instance) {
-        DatabaseConnect.instance = instance;
-    }
 }
